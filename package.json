@@ -1,0 +1,15 @@
+{
+  "name": "cs-2-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercises.js",
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
