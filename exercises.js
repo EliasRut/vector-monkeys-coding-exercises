@@ -1,5 +1,7 @@
 // To get started, run "npm install" in the console in the repositories root directory.
 // You can then execute the tests by running "npm run test" in the repositories root directory.
+// To track all changed files with git, write "git add --all"
+// To commit them, write "git commit -m 'YOUR COMMIT MESSAGE'"
 
 const exercise1 = () => {
 	// TODO: Return 42.
@@ -19,7 +21,7 @@ const exercise4 = (firstNumber, secondNumber) => {
 };
 
 const exercise5 = (number) => {
-	// TODO: Return whether or not the passed number is even
+	// TODO: Return whether or not the passed number is even - true for even, false for odd
 };
 
 const exercise6 = (author) => {
