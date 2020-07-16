@@ -35,11 +35,11 @@ const number = 5;
 
 const exercise5 = (number) => {
 	// TODO: Return whether or not the passed number is even
-	if (number%2) {
-		return 'even';
+	if (number%2 == 0) {
+		return true;
 	}
 	else {
-		return 'odd'
+		return false;
 	}
 }
 
