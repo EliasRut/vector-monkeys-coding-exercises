@@ -14,11 +14,11 @@ const {
 } = require('./exercises');
 
 
-// describe('Exercise 1', () => {
-// 	test('Returns 42', () => {
-// 		expect(exercise1()).toBe(42);
-// 	});
-// });
+describe('Exercise 1', () => {
+	test('Returns 42', () => {
+		expect(exercise1()).toBe(42);
+	});
+});
 
 // describe('Exercise 2', () => {
 // 	test('Returns "Douglas Adams"', () => {
