@@ -3,22 +3,44 @@
 
 const exercise1 = () => {
 	// TODO: Return 42.
+	return 42;
 };
+
+const author = 'Douglas Adams';
 
 const exercise2 = () => {
 	// TODO: Return the name of the author of Hitchhikers guide to the galaxy.
+	return author
 };
 
 const exercise3 = (firstNumber, secondNumber) => {
 	// TODO: Return the sum of firstNumber and secondNumber
+	return firstNumber + secondNumber;
 };
+
+const firstNumber = 12;
+const secondNumber = 6;
 
 const exercise4 = (firstNumber, secondNumber) => {
 	// TODO: Return the higher number of firstNumber or secondNumber
+	if (firstNumber > secondNumber) {
+		return firstNumber;
+	}
+	else {
+		return secondNumber
+	}
 }
+
+const number = 5;
 
 const exercise5 = (number) => {
 	// TODO: Return whether or not the passed number is even
+	if (number%2) {
+		return 'even';
+	}
+	else {
+		return 'odd'
+	}
 }
 
 const exercise6 = (author) => {
