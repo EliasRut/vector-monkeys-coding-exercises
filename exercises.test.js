@@ -20,55 +20,55 @@ describe('Exercise 1', () => {
 	});
 });
 
-// describe('Exercise 2', () => {
-// 	test('Returns "Douglas Adams"', () => {
-// 		expect(exercise2()).toBe("Douglas Adams");
-// 	});
-// });
+describe('Exercise 2', () => {
+	test('Returns "Douglas Adams"', () => {
+		expect(exercise2()).toBe("Douglas Adams");
+	});
+});
 
-// describe('Exercise 3', () => {
-// 	test('Returns 28 for 10, 18', () => {
-// 		expect(exercise3(10, 18)).toBe(28);
-// 	});
+describe('Exercise 3', () => {
+	test('Returns 28 for 10, 18', () => {
+		expect(exercise3(10, 18)).toBe(28);
+	});
 
-// 	test('Returns -4 for 10, -14', () => {
-// 		expect(exercise3(10, -14)).toBe(-4);
-// 	});
-// });
+	test('Returns -4 for 10, -14', () => {
+		expect(exercise3(10, -14)).toBe(-4);
+	});
+});
 
-// describe('Exercise 4', () => {
-// 	test('Returns 18 for 10, 18', () => {
-// 		expect(exercise4(10, 18)).toBe(18);
-// 	});
+describe('Exercise 4', () => {
+	test('Returns 18 for 10, 18', () => {
+		expect(exercise4(10, 18)).toBe(18);
+	});
 
-// 	test('Returns -4 for -10, -4', () => {
-// 		expect(exercise4(-10, -4)).toBe(-4);
-// 	});
-// });
+	test('Returns -4 for -10, -4', () => {
+		expect(exercise4(-10, -4)).toBe(-4);
+	});
+});
 
-// describe('Exercise 5', () => {
-// 	test('Returns true for 16', () => {
-// 		expect(exercise5(16)).toBe(true);
-// 	});
+describe('Exercise 5', () => {
+	test('Returns true for 16', () => {
+		expect(exercise5(16)).toBe(true);
+	});
 
-// 	test('Returns true for -4', () => {
-// 		expect(exercise5(-4)).toBe(true);
-// 	});
+	test('Returns true for -4', () => {
+		expect(exercise5(-4)).toBe(true);
+	});
 
-// 	test('Returns false for 11', () => {
-// 		expect(exercise5(11)).toBe(false);
-// 	});
-// });
+	test('Returns false for 11', () => {
+		expect(exercise5(11)).toBe(false);
+	});
+});
 
-// describe('Exercise 6', () => {
-// 	test('Returns true for "Douglas Adams"', () => {
-// 		expect(exercise6("Douglas Adams")).toBe(true);
-// 	});
+describe('Exercise 6', () => {
+	test('Returns true for "Douglas Adams"', () => {
+		expect(exercise6("Douglas Adams")).toBe(true);
+	});
 
-// 	test('Returns false for "J.R.R. Tolkin"', () => {
-// 		expect(exercise6("J.R.R. Tolkin")).toBe(false);
-// 	});
-// });
+	test('Returns false for "J.R.R. Tolkin"', () => {
+		expect(exercise6("J.R.R. Tolkin")).toBe(false);
+	});
+});
 
 // describe('Exercise 7', () => {
 // 	test('Returns 20 for [2, 4, 6, 8]', () => {

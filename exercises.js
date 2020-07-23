@@ -3,6 +3,10 @@
 // To track all changed files with git, write "git add --all"
 // To commit them, write "git commit -m 'YOUR COMMIT MESSAGE'"
 
+const isEven = (number) => {
+	return number % 2 === 0; // % is the so called modulo operator - it returns the rest of a division
+};
+
 const exercise1 = () => {
 	// TODO: Return 42.
 	return 40;
