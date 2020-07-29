@@ -70,39 +70,54 @@ describe('Exercise 6', () => {
 	});
 });
 
-// describe('Exercise 7', () => {
-// 	test('Returns 20 for [2, 4, 6, 8]', () => {
-// 		expect(exercise7([2, 4, 6, 8])).toBe(20);
-// 	});
+describe('Exercise 7', () => {
+	test('Returns 20 for [2, 4, 6, 8]', () => {
+		expect(exercise7([2, 4, 6, 8])).toBe(20);
+	});
 
-// 	test('Returns 0 for -2, -1, 0, 1, 2', () => {
-// 		expect(exercise7([-2, -1, 0, 1, 2])).toBe(0);
-// 	});
-// });
+	test('Returns 0 for -2, -1, 0, 1, 2', () => {
+		expect(exercise7([-2, -1, 0, 1, 2])).toBe(0);
+	});
+});
 
-// describe('Exercise 8', () => {
-// 	test('Returns true for [2, 4, 6, 8]', () => {
-// 		expect(exercise8([2, 4, 6, 8])).toBe(true);
-// 	});
+describe('Exercise 8', () => {
+	test('Returns true for [2, 4, 6, 8]', () => {
+		expect(exercise8([2, 4, 6, 8])).toBe(true);
+	});
 
-// 	test('Returns false for -2, -1, 0, 1, 2', () => {
-// 		expect(exercise8([-2, -1, 0, 1, 2])).toBe(false);
-// 	});
-// });
+	test('Returns false for -2, -1, 0, 1, 2', () => {
+		expect(exercise8([-2, -1, 0, 1, 2])).toBe(false);
+	});
+});
 
-// describe('Exercise 9', () => {
-// 	test('Returns true for ["Douglas Adams", "Brandon Sanderson"]', () => {
-// 		expect(exercise9(["Douglas Adams", "Brandon Sanderson"])).toBe(true);
-// 	});
+describe('Exercise 9', () => {
+	test('Returns true for ["Douglas Adams", "Brandon Sanderson"]', () => {
+		expect(exercise9(["Douglas Adams", "Brandon Sanderson"])).toBe(true);
+	});
 
-// 	test('Returns false for []', () => {
-// 		expect(exercise9([])).toBe(false);
-// 	});
+	test('Returns false for []', () => {
+		expect(exercise9([])).toBe(false);
+	});
 
-// 	test('Returns false for ["Brandon Sanderson", "Wolfgang Hohlbein"]', () => {
-// 		expect(exercise9(["Brandon Sanderson", "Wolfgang Hohlbein"])).toBe(false);
-// 	});
-// });
+	test('Returns false for ["Brandon Sanderson", "Wolfgang Hohlbein"]', () => {
+		expect(exercise9(["Brandon Sanderson", "Wolfgang Hohlbein"])).toBe(false);
+	});
+});
+
+describe('Exercise 9b', () => {
+	test('Returns true for ["weird", "annoyed", "depressed"]', () => {
+		expect(exercise9b(["weird", "annoyed", "depressed"])).toBe(true);
+	});
+
+	test('Returns false for ["happy", "social", "creative"]', () => {
+		expect(exercise9b(["happy", "social", "creative"])).toBe(false);
+	});
+
+	test('Returns false for empty list', () => {
+		expect(exercise9b([])).toBe(false);
+	});
+});
+
 
 // const authorTestSet = [
 // 	{

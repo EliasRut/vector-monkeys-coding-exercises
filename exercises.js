@@ -44,6 +44,10 @@ const exercise9 = (authors) => {
 	// TODO: Return whether or not the author of Hitchhiker guide to the galaxy is in the list of authors
 };
 
+const exercise9b = (attributes) => {
+	// TODO: Return true if one of the attributes is "depressed", false if none of the attributes is "depressed"
+};
+
 const exercise10 = (people) => {
 	// TODO: Return the name of all people who's favouriteColor is blue
 };
