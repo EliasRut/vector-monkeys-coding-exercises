@@ -71,6 +71,7 @@ module.exports = {
 	exercise7,
 	exercise8,
 	exercise9,
+	exercise9b,
 	exercise10,
 	exercise11,
 	exercise12,
