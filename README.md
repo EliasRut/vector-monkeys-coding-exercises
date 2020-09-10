@@ -1,6 +1,6 @@
 # Coding Session 2, Group 2
 This session is all about solving some coding exercises in JavaScript.
-
+ist das Änderung genug?
 ## Getting started
 Before you start solving the exercises, you will need to pull them to your local computer.
 To do that, we will use git clone. This will generate a new directory inside the one you are currently in.
