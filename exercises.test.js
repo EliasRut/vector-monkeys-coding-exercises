@@ -120,60 +120,60 @@ describe('Exercise 9b', () => {
 });
 
 
-// const authorTestSet = [
-// 	{
-// 		name: "Douglas Adams",
-// 		age: 42,
-// 		favouriteColor: "blue"
-// 	},
-// 	{
-// 		name: "Wolfgang Hohlbein",
-// 		age: 101,
-// 		favouriteColor: "red"
-// 	},
-// 	{
-// 		name: "Brandon Sanderson",
-// 		age: 55,
-// 		favouriteColor: "blue"
-// 	}
-// ];
+const authorTestSet = [
+	{
+		name: "Douglas Adams",
+		age: 42,
+		favouriteColor: "blue"
+	},
+	{
+		name: "Wolfgang Hohlbein",
+		age: 101,
+		favouriteColor: "red"
+	},
+	{
+		name: "Brandon Sanderson",
+		age: 55,
+		favouriteColor: "blue"
+	}
+];
 
-// describe('Exercise 10', () => {
-// 	test('Returns ["Douglas Adams", "Brandon Sanderson"] for the author test set', () => {
-// 		expect(exercise10(authorTestSet)).toStrictEqual(["Douglas Adams", "Brandon Sanderson"]);
-// 	});
+describe('Exercise 10', () => {
+	test('Returns ["Douglas Adams", "Brandon Sanderson"] for the author test set', () => {
+		expect(exercise10(authorTestSet)).toStrictEqual(["Douglas Adams", "Brandon Sanderson"]);
+	});
 
-// 	test('Returns [] for an empty test set', () => {
-// 		expect(exercise10([])).toStrictEqual([]);
-// 	});
-// });
+	test('Returns [] for an empty test set', () => {
+		expect(exercise10([])).toStrictEqual([]);
+	});
+});
 
-// describe('Exercise 11', () => {
-// 	test('Returns 66 for the author test set', () => {
-// 		expect(exercise11(authorTestSet)).toBe(66);
-// 	});
+describe('Exercise 11', () => {
+	test('Returns 66 for the author test set', () => {
+		expect(exercise11(authorTestSet)).toBe(66);
+	});
 
-// 	test('Returns null for an empty test set', () => {
-// 		expect(exercise11([])).toBe(null);
-// 	});
+	test('Returns null for an empty test set', () => {
+		expect(exercise11([])).toBe(null);
+	});
 
-// 	test('Returns the single authors age if only one author is passed', () => {
-// 		expect(exercise11([authorTestSet[0]])).toBe(42);
-// 	});
-// });
+	test('Returns the single authors age if only one author is passed', () => {
+		expect(exercise11([authorTestSet[0]])).toBe(42);
+	});
+});
 
-// const getColorForName = (name) => name.startsWith('D') || name.startsWith('B') ? "blue" : "red";
+const getColorForName = (name) => name.startsWith('D') || name.startsWith('B') ? "blue" : "red";
 
-// describe('Exercise 12', () => {
-// 	test('Returns correctly set colors for the author test set', () => {
-// 		const colorStrippedAuthors = authorTestSet.map((author) => ({
-// 			name: author.name,
-// 			age: author.age,
-// 		}));
-// 		expect(exercise12(colorStrippedAuthors, getColorForName)).toStrictEqual(authorTestSet);
-// 	});
+describe('Exercise 12', () => {
+	test('Returns correctly set colors for the author test set', () => {
+		const colorStrippedAuthors = authorTestSet.map((author) => ({
+			name: author.name,
+			age: author.age,
+		}));
+		expect(exercise12(colorStrippedAuthors, getColorForName)).toStrictEqual(authorTestSet);
+	});
 
-// 	test('Returns [] for an empty test set', () => {
-// 		expect(exercise12([])).toStrictEqual([]);
-// 	});
-// });
+	test('Returns [] for an empty test set', () => {
+		expect(exercise12([])).toStrictEqual([]);
+	});
+});
