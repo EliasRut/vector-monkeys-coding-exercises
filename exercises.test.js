@@ -15,7 +15,7 @@ const {
 } = require('./exercises');
 
 
-describe('Exercise 1', () => {
+describe.only('Exercise 1', () => {
 	test('Returns 42', () => {
 		expect(exercise1()).toBe(42);
 	});
