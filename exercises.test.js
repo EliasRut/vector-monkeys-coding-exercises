@@ -21,13 +21,13 @@ describe.only('Exercise 1', () => {
 	});
 });
 
-describe('Exercise 2', () => {
+describe.only('Exercise 2', () => {
 	test('Returns "Douglas Adams"', () => {
 		expect(exercise2()).toBe("Douglas Adams");
 	});
 });
 
-describe('Exercise 3', () => {
+describe.only('Exercise 3', () => {
 	test('Returns 28 for 10, 18', () => {
 		expect(exercise3(10, 18)).toBe(28);
 	});
@@ -37,7 +37,7 @@ describe('Exercise 3', () => {
 	});
 });
 
-describe('Exercise 4', () => {
+describe.only('Exercise 4', () => {
 	test('Returns 18 for 10, 18', () => {
 		expect(exercise4(10, 18)).toBe(18);
 	});

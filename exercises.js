@@ -8,18 +8,30 @@ const isEven = (number) => {
 };
 
 const exercise1 = () => {
+	return 42;
 	// TODO: Return 42.
 };
 
 const exercise2 = () => {
+	return "Douglas Adams";
 	// TODO: Return the name of the author of Hitchhikers guide to the galaxy.
 };
 
 const exercise3 = (firstNumber, secondNumber) => {
+	return firstNumber + secondNumber;
 	// TODO: Return the sum of firstNumber and secondNumber
 };
 
 const exercise4 = (firstNumber, secondNumber) => {
+	if (firstNumber < secondNumber) {
+		return secondNumber
+	}
+	else if (firstNumber > secondNumber) {
+		return firstNumber
+	}
+	else {
+		return 'equal'
+	}
 	// TODO: Return the higher number of firstNumber or secondNumber
 };
 
