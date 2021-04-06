@@ -8,8 +8,12 @@ const isEven = (number) => {
 };
 
 const exercise1 = () => {
+<<<<<<< HEAD
 	// Return 42.
 	return 42;
+=======
+	return 24;
+>>>>>>> 980c96b47d8b451babb4a95f50f378da78c22f26
 };
 
 const exercise2 = () => {
