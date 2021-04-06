@@ -8,7 +8,7 @@ const isEven = (number) => {
 };
 
 const exercise1 = () => {
-	// TODO: Return 42.
+	return 24;
 };
 
 const exercise2 = () => {
