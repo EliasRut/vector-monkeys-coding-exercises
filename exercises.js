@@ -8,31 +8,42 @@ const isEven = (number) => {
 };
 
 const exercise1 = () => {
-	// TODO: Return 42.
+	// Return 42.
+	return 42;
 };
 
 const exercise2 = () => {
-	// TODO: Return the name of the author of Hitchhikers guide to the galaxy.
+	// Return the name of the author of Hitchhikers guide to the galaxy.
+	return "Douglas Adams";
 };
 
 const exercise3 = (firstNumber, secondNumber) => {
-	// TODO: Return the sum of firstNumber and secondNumber
+	// Return the sum of firstNumber and secondNumber
+	return firstNumber + secondNumber;
 };
 
 const exercise4 = (firstNumber, secondNumber) => {
-	// TODO: Return the higher number of firstNumber or secondNumber
+	// Return the higher number of firstNumber or secondNumber
+	if (secondNumber > firstNumber) {
+		return secondNumber;
+	} else {
+		return firstNumber;
+	}
 };
 
 const exercise5 = (number) => {
-	// TODO: Return whether or not the passed number is even - true for even, false for odd
+	// Return whether or not the passed number is even - true for even, false for odd
+	 return (number % 2 == 0); 
 };
 
 const exercise6 = (author) => {
-	// TODO: Return whether or not the passed name is the author of Hitchhiker guide to the galaxy
+	// Return whether or not the passed name is the author of Hitchhiker guide to the galaxy
+	return (author == "Douglas Adams");
 };
 
 const exercise7 = (numbers) => {
 	// TODO: Return the sum of all numbers in the passed list
+	
 };
 
 const exercise8 = (numbers) => {
