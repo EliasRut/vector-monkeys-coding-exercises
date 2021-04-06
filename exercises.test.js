@@ -71,7 +71,7 @@ describe.only('Exercise 6', () => {
 	});
 });
 
-describe('Exercise 7', () => {
+describe.only('Exercise 7', () => {
 	test('Returns 20 for [2, 4, 6, 8]', () => {
 		expect(exercise7([2, 4, 6, 8])).toBe(20);
 	});
@@ -81,7 +81,7 @@ describe('Exercise 7', () => {
 	});
 });
 
-describe('Exercise 8', () => {
+describe.only('Exercise 8', () => {
 	test('Returns true for [2, 4, 6, 8]', () => {
 		expect(exercise8([2, 4, 6, 8])).toBe(true);
 	});

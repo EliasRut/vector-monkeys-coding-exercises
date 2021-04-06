@@ -42,12 +42,41 @@ const exercise6 = (author) => {
 };
 
 const exercise7 = (numbers) => {
-	// TODO: Return the sum of all numbers in the passed list
+	// Return the sum of all numbers in the passed list
 	
+	// Option 1
+	/*
+	let sum = 0;
+
+	// Not knowing how "foreach" works in JS jet
+	for( let i = 0; i < numbers.length ; i++)
+	{
+		sum += numbers[i];
+	}
+
+	return sum;
+	*/
+
+	// Option 2
+
+	// Option 3
+	return numbers.reduce((sum, number) => sum + number , 0);
 };
 
 const exercise8 = (numbers) => {
-	// TODO: Return true if all numbers in the list are even
+	// Return true if all numbers in the list are even
+	
+	// Option 1
+	/*
+	for (let i = 0; i < numbers.length; i++) {
+		if (numbers[i] % 2 === 1) return false;
+	}	
+	
+	return true;
+	*/
+
+	//Option 2
+	return numbers.every((number) => (number % 2) === 0, true);
 };
 
 const exercise9 = (authors) => {
