@@ -9,10 +9,12 @@ const isEven = (number) => {
 
 const exercise1 = () => {
 	// TODO: Return 42.
+	return 42
 };
 
 const exercise2 = () => {
 	// TODO: Return the name of the author of Hitchhikers guide to the galaxy.
+	return Douglas Adams
 };
 
 const exercise3 = (firstNumber, secondNumber) => {
